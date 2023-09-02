@@ -5,7 +5,7 @@ import org.testng.ITestResult;
 
 public class RetryEngine implements IRetryAnalyzer {
 	 
-    private int count = 0;
+    private int count = 1234;
     private static int maxTry = 0;
  
     @Override
