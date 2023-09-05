@@ -49,7 +49,8 @@ public abstract class ExtentReporter extends DriverInstance {
 		htmlReporter.config().setTheme(Theme.STANDARD);
 		htmlReporter.config().setDocumentTitle("Leaftaps");
 		htmlReporter.config().setEncoding("utf-8");
-		htmlReporter.config().setReportName("Leaftaps");
+		htmlReporter.config().setReportName("Leaftaps _Automation - Checking merge conflicts");
+		htmlReporter.config().setReportName("Leaftaps _Automation");
 		htmlReporter.setAppendExisting(true);
 		extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
