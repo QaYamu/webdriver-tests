@@ -1,11 +1,5 @@
 #!/bin/bash
-#check git repo is cloned or not if not clone it
-if [ -f .git ]; then
-    echo "git repo is cloned already"
-else
-    echo "git repo is not cloned"
-    git clone https://github.com/TestLeafInc/webdriver-tests
-fi
+
 #maven cmd to run the automated script
 echo "Going to run the automated script"
         cd ~/webdriver-tests
