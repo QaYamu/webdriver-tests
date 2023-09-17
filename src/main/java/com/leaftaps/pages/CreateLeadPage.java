@@ -8,6 +8,7 @@ public class CreateLeadPage extends ProjectHooks{
 	public CreateLeadPage enterCompanyName(String data) {
 		clearAndType(locateElement(Locators.XPATH, "//input[@id='createLeadForm_companyName']"), data);
 		reportStep(data+" company name is entered successfully","pass");
+		System.out.println();
 		return this;
 	}
 	public CreateLeadPage enterFirstName(String data) {
